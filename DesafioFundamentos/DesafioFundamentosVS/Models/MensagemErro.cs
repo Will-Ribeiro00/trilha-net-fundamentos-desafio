@@ -48,7 +48,7 @@
             return "\nErro: ID do funcionário ou senha incorreto !";
         }
         //Erro da Senha Mestre
-        public static string SenhaMestre()
+        public static string SenhaMestreInvalida()
         {
             return "\nErro: Senha inválida! A senha de acesso deve ser numérica\nInforme a senha de acesso: ";
         }

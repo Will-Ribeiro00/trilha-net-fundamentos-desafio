@@ -216,7 +216,7 @@ while (programa)
                     Console.Write("Informe a senha de acesso:");
                     while (!int.TryParse(Console.ReadLine(), out senhaAcesso))
                     {
-                        Console.WriteLine(MensagemErro.SenhaMestre());
+                        Console.WriteLine(MensagemErro.SenhaMestreInvalida());
                         Console.ReadKey();
                     }
                     if (senhaAcesso == es.SenhaAcesso)
